@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20%;
+  width: 20%;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #282c34; /* we can change the background color here for say LightGrey */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  padding: 5%;    /* add some padding such that the line and the pic do not overlap 
+  color: #61dafb; /* change the color of the link to gold */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.button {
+  top: -2px;
+  padding: 5px; 
+  width: 10%;
+  height: 5%; 
+  margin: -1px 0px 0 0;
+  border: 6px solid LightGrey;
+  cursor: pointer;
+  font-size: calc(10px + 2vmin);
+}
