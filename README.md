@@ -87,7 +87,7 @@ Then in the render when inserting the button:
 	        </Button>
 </pre>
 2. New style:  
-<pre> handleClick() => {
+				<pre> handleClick() => {
 					this.setState(greeting: "Join us, we are a lot of fun!")
 				}
 </pre>
