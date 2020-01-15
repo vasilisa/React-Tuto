@@ -34,15 +34,16 @@ function App() { // Function is an example of a simple React Component. Another 
 
 
 /* We can add a child function here and pass the props to it from the parent App function 
-  First, We will replace the text <h1>Hello from Dev Comp Lab!</h1>  with the Greeting function  
+  First, We will replace the text <h1>Hello from Dev Comp Lab!</h1>  with the Greeting function 
+
+*/ 
   
   function Greeting() { 
   return <h1>Hello from Dev Comp Psy!</h1>;
   }
-*/ 
-
-
-/* Then, we can put the props to the Greeting function from the App parent function by: 
+ 
+/* 
+  Then, we can put the props to the Greeting function from the App parent function by: 
    const greeting = 'Hello again from Dev Compy Psy!';
    return <Greeting value={greeting} />; 
 
@@ -51,7 +52,8 @@ and
 function Greeting(props) {
   return <h1>{props.value}</h1>;
   }
-*/
+
+*/ 
 
 export default App;
 
