@@ -1,16 +1,19 @@
-# React-Tuto
+# React Tuto
 
 This is a short tutorial to start with React JS front end building. 
 
 ## Prerequisites
 
 1. Install NPM (Node package manager) and Node.js from http://npmjs.org/. 
-2. Install Babel (JS compiler): ``npm install babel-core babel-loader babel-preset-env babel-preset-react babel-webpack-plugin --save-dev``
-3. Once installed you can proceed with React JS: 
+For installing React JS on Windows: there are guidlines online: [https://www.liquidweb.com/kb/install-react-js-windows/](https://www.liquidweb.com/kb/install-react-js-windows/) 
+3. Install Babel (JS compiler): ``npm install babel-core babel-loader babel-preset-env babel-preset-react babel-webpack-plugin --save-dev``
+4. Once installed you can proceed with React JS: 
 ``npm install -g create-react-app``
-4. Then you can create your first project with React: ``npx create-react-app myfirstreact``
+5. Then you can create your first project with React: ``npx create-react-app myfirstreact``
 
 Once done you will see many folders inside your new ``myfirstreact`` repository. 
+**IMPORTANT**: once you have install Node and have installed `create-react-app`, no need to do it again. You can create multiple React projects just by doing `npx create-react-app youprojectname`
+
 **Important**: You might modify the content of some of them but, please, do not rename them. 
 
 To start your React project on the server, cd to ``myfirstreact`` folder and type: `` npm start``. It will launch the React in your browser on the localhost default or available port.  
@@ -87,7 +90,7 @@ Then in the render when inserting the button:
 	        </Button>
 </pre>
 2. New style:  
-				<pre> handleClick() => {
+<pre> handleClick() => {
 					this.setState(greeting: "Join us, we are a lot of fun!")
 				}
 </pre>
@@ -98,11 +101,3 @@ Then in the render when inserting the button:
 	          Click here
 	        </Button>
 </pre>
-
-
-
-
- 
-- 
- 
-
