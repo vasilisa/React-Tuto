@@ -16,7 +16,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-webpack-plugin": "^0.1.1",
-    "react-scripts": "^3.3.0"
+    "react-scripts": "^5.0.1"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
